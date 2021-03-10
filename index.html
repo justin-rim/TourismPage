@@ -1,89 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Layout Master</title>
+  <title>Tourism Page</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./style.css">
   <link rel="stylesheet" type="text/css" href="./animate.css/animate.css">
 </head>
 <body>
   <div class="container">
-    <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">About</a>
+    <div class="top" id="myTopnav">
+      <a href="#home">About</a>
       <div class="dropdown">
-         <button class="dropbtn">Services</button>
-         <div class="dropdown-content">
-         <a href="#">Guided Tour</a>
-         <a href="#">Tea Ceremony</a>
-         <a href="#">Kimono Rental</a>
+         <button class="expand">Services</button>
+         <div class="SvcList">
+           <a href="#">Guided Tour</a>
+           <a href="#">Traditional Tea Ceremony</a>
+           <a href="#">Kimono Rental</a>
          </div>
       </div>
       <a href="#news">Group Rates</a>
       <a href="#contact">Contact</a>
+      <a href="javascript:void(0);" class="listOpen" onclick="respond()">&#9776;</a>
     </div>
-  
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-</div>
-    <!--<div class="zone blackTop">
-      <div class="About">About</div>
-      <div class="Services">
-        <ul>
-          <li>Services</li>
-            <ul>
-              <li>Guided Tour</li>
-              <li>Tea Ceremony</li>
-              <li>Kimono Rental</li>
-            </ul>
-        </ul>   
-      </div>
-      <div class="rates">Group Rates</div>
-      <div class="contact">Contact</div>
-    </div>-->
+  </div>
     <div class="zone main">   
         <h2 id="Title" class="animate__animated animate__fadeInDown">Relax in</h2>
         <h3 id="BigTitle" class="animate__animated animate__fadeIn animate__delay-2s">Kyoto ❀</h3>
     </div>
     <div class="zone black">
-      <div class="zone grey">
+      <div class="zone icon">
         <a href = "https://en.wikipedia.org/wiki/Kyoto" target = "_blank">
           <img src="icons/icons8-japan-100.png">
         </a>
       </div>
-      <div class="zone grey">
+      <div class="zone icon">
         <a href = "https://en.wikipedia.org/wiki/Torii" target= "_blank">
           <img src="icons/torii.png">
         </a>
       </div>
-      <div class="zone grey">
-         <a href = "https://en.wikipedia.org/wiki/Cherry_blossom" target = "_blank">
-          <img src="icons/icons8-sakura-100.png">
-        </a>
-      </div>    
-      <div class="zone grey">
-         <a href = "https://en.wikipedia.org/wiki/Japanese_tea_ceremony" target = "_blank">
-          <img src="icons/icons8-teacup-without-handle-100.png">
-         </a>
-      </div>
-      <div class="zone grey">
+       <div class="zone icon">
          <a href = "https://en.wikipedia.org/wiki/Samurai" target = "_blank">
           <img src="icons/icons8-samurai-helmet-100.png">
          </a>
       </div>
-      <div class="zone grey">
-         <a href = "https://en.wikipedia.org/wiki/Oil-paper_umbrella" target = "_blank">
-          <img src="icons/umbrella.png">
-         </a>
-      </div>
-      <div class="zone grey">
-          <a href = "https://en.wikipedia.org/wiki/Sushi" target = "_blank">
-            <img src="icons/sushi.png">
-          </a>
-      </div>
-      <div class="zone grey">
+      <div class="zone icon">
          <a href = "https://en.wikipedia.org/wiki/Kimono" target = "_blank">
           <img src="icons/icons8-kimono-100.png">
          </a>
       </div>
+      <div class="zone icon">
+         <a href = "https://en.wikipedia.org/wiki/Cherry_blossom" target = "_blank">
+          <img src="icons/icons8-sakura-100.png">
+        </a>
+      </div>    
+      <div class="zone icon">
+         <a href = "https://en.wikipedia.org/wiki/Japanese_tea_ceremony" target = "_blank">
+          <img src="icons/icons8-teacup-without-handle-100.png">
+         </a>
+      </div> 
+      <div class="zone icon">
+         <a href = "https://en.wikipedia.org/wiki/Oil-paper_umbrella" target = "_blank">
+          <img src="icons/umbrella.png">
+         </a>
+      </div>
+      <div class="zone icon">
+          <a href = "https://en.wikipedia.org/wiki/Sushi" target = "_blank">
+            <img src="icons/sushi.png">
+          </a>
+      </div> 
       </div>
      <div class="zone blackEnd">
         <div class="git"> 
@@ -102,10 +86,11 @@
           </a>  
         </div>
         <div class="icons8">
-          <h4>App icons by <a href="https://icons8.com/" target="_blank">Icons8</a>
+          <h4>App Icons by <a href="https://icons8.com/" target="_blank">Icons8</a>
           </h4>
         </div>  
       </div>
   </div>
+  <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
