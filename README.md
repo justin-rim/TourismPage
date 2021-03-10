@@ -1,6 +1,7 @@
 # TourismPage
 
-![KyotoTravel](https://user-images.githubusercontent.com/43804428/110575603-fe8dce00-8113-11eb-88db-54ce8f73560b.png)
+![KyotoTravel](https://user-images.githubusercontent.com/43804428/110576248-4eb96000-8115-11eb-8df1-db3fa37c6766.png)
+
 
 A simple template created for a sample tourist page.
 
